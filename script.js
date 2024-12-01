@@ -1,1 +1,1 @@
-
+// Transição entre telas document.addEventListener('DOMContentLoaded', () => { const loadingScreen = document.getElementById('loading-screen'); const presentation = document.getElementById('presentation'); const site = document.getElementById('site'); // Simula o carregamento setTimeout(() => { loadingScreen.style.display = 'none'; presentation.classList.remove('hidden'); // Apresentação de 5 segundos setTimeout(() => { presentation.style.display = 'none'; site.classList.remove('hidden'); }, 5000); }, 3000); // Tempo do carregamento });
